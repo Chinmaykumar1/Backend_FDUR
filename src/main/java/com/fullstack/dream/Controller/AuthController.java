@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://backend-fdur.onrender.com")
 public class AuthController {
 
     @Autowired
