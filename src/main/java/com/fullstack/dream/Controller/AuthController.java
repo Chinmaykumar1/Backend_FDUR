@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/")
-@CrossOrigin(origins = "https://backend-fdur.onrender.com")
+@CrossOrigin(origins = "https://dream-front-rouge.vercel.app")
 public class AuthController {
 
     @Autowired
